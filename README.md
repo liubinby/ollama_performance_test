@@ -1,3 +1,6 @@
+
+This is a performance test tool for Ollama models, it test the speed of the token generation.
+
 Run the Streamlit app with:
 
 streamlit run ollama_performance_test.py
