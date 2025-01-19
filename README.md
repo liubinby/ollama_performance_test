@@ -1,18 +1,82 @@
 
-This is a performance test tool for Ollama models, it test the speed of the token generation.
+
+```markdown
+# Ollama Model Performance Tester
+
+This tool is designed to test the performance of Ollama models by measuring the speed of token generation. It provides a user-friendly web interface for conducting performance tests on locally installed Ollama models.
+
+## Features
+
+- Select from installed Ollama models on your local machine
+- Customize the input prompt or use the default
+- Specify the number of tokens to generate
+- Run performance tests and view detailed results
+- Display generated text and performance metrics
+
+## Installation
+
+1. Clone this repository:
+   ```
+   git clone https://github.com/liubinby/ollama-performance-tester.git
+   cd ollama-performance-tester
+   ```
+
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## Usage
 
 Run the Streamlit app with:
 
+```
 streamlit run ollama_performance_test.py
+```
+
 This will open a web interface where you can:
 
-Select from the installed models on your local machine.
-Edit the default prompt or use your own.
-Specify the number of tokens to generate.
-Run the performance test and see the results, including the generated text and performance metrics.
-The app will display the selected model, the number of tokens generated, time taken, tokens per second, and the generated text.
+1. Select an installed Ollama model from your local machine
+2. Edit the default prompt or input your own
+3. Specify the number of tokens to generate
+4. Run the performance test
+5. View the results, including:
+   - Selected model
+   - Number of tokens generated
+   - Time taken
+   - Tokens per second
+   - Generated text
 
-Note that this is a rough estimate of performance, as token counting is done by splitting on spaces, which isn't entirely accurate. For more precise measurements, you might need to use a proper tokenizer for the specific model you're using.
+## Note on Accuracy
 
-To install the dependent modules:
-  pip install -r requirements.txt
+Please note that this tool provides a rough estimate of performance. Token counting is performed by splitting on spaces, which may not be entirely accurate for all models. For more precise measurements, consider using a proper tokenizer specific to the model you're testing.
+
+## Requirements
+
+See `requirements.txt` for a list of required Python packages.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+[MIT License](LICENSE)
+```
+
+This enhanced README.md:
+
+1. Adds a title and brief description
+2. Includes a "Features" section
+3. Provides detailed installation instructions
+4. Expands the usage section with step-by-step guidance
+5. Retains the note about accuracy
+6. Mentions the requirements file
+7. Adds sections for contributing and license information
+
+You can further customize this README by adding:
+- Screenshots of the application
+- More detailed usage examples
+- Troubleshooting tips
+- Information about how to report issues
+- Links to related projects or documentation
