@@ -1,6 +1,5 @@
 
 
-```markdown
 # Ollama Model Performance Tester
 
 This tool is designed to test the performance of Ollama models by measuring the speed of token generation. It provides a user-friendly web interface for conducting performance tests on locally installed Ollama models.
@@ -61,22 +60,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-[MIT License](LICENSE)
-```
-
-This enhanced README.md:
-
-1. Adds a title and brief description
-2. Includes a "Features" section
-3. Provides detailed installation instructions
-4. Expands the usage section with step-by-step guidance
-5. Retains the note about accuracy
-6. Mentions the requirements file
-7. Adds sections for contributing and license information
-
-You can further customize this README by adding:
-- Screenshots of the application
-- More detailed usage examples
-- Troubleshooting tips
-- Information about how to report issues
-- Links to related projects or documentation
